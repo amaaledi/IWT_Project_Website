@@ -1,0 +1,253 @@
+s
+/** header **/
+h1.header{
+	padding : 15px;
+	font-family :'Times New Roman', Times, serif;
+	background-color : #1CA6D8;
+}
+
+/**header logo image**/
+img.hImage{
+	text-align:center;
+	padding : 24px 125px;
+	width:400;
+	height:50;
+}
+/**header image 2**/
+img.hImage2{
+	text-align:left;
+	width:300;
+	height:100;
+}
+
+/**login image avatar**/
+img.logAv{
+	float : right;
+	margin-right : 14px;
+	width : 90;
+	height : 110;
+}
+
+img.logAv :hover{
+	background-color : 1EB4EA;
+}
+
+
+/**menu**/
+/*********************************************************************************************************************/
+ul.nav{
+	list-style-type: none;
+	background-color: #333;
+	padding :0;
+	overflow:hidden;	
+}
+
+li.a{
+	margin-top : 0px;
+	font-family : 'Times New Roman', Times, serif Black;
+	display: block;
+	color: #FFFFFF;
+	text-align: center;
+	padding: 14px 40px;
+	text-decoration-color:#FFFFFF;
+	float : left;
+	font-size: 20px;
+}
+
+li.a:hover{
+	background-color : grey;
+}
+
+/**Dropdown list**/
+/******************************************************************************************************************/
+.dropDownButt{
+	background-color: #333 ;
+	color: white;
+	padding: 16px;
+	border: none;
+	cursor: pointer;
+
+}
+
+.dropDwn{
+	color: #FFFFFF;
+	text-align: center;
+	padding: 14px 40px;
+	text-decoration-color:#FFFFFF;
+	font-family : 'Times New Roman', Times, serif Black;
+	float: left;
+	font-size: 20px;
+
+}
+
+.dropDwnLst{
+	display: none;
+	position: absolute;
+	background-color: #333;
+	min-width: 160px;
+	z-index: 1;
+}
+
+.dropDwnLst a {
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+	text-align: left;
+	font-size: 19px;
+	
+  }
+  
+.dropDwnLst a:hover {
+	  background-color: grey;
+}
+  
+  .dropDwn:hover .dropDwnLst {
+	display: block;
+  }
+
+/**link text color**/
+a.b{
+	color:white;
+}
+
+/**search bar**/
+/********************************************************************************************************/
+input.searchBox{
+	padding : 6px;
+	float : right;
+	font-size : 17px;
+	margin-top :7.8px;
+	margin-right : 8px;
+	
+}
+/**search bar button**/
+button.butt{
+	float : right;
+	padding : 10px;
+	margin-top : 7.5px;
+	margin-right : 8px;	
+}
+
+img.buttImg{
+	height : 10px;
+	width : 10px;
+
+}
+
+button.butt:hover{
+	background-color : grey;
+ 
+}
+
+/** Footer**/
+/** text**/
+/*************************************************************************************************************************/
+footer{
+
+	display: flex;
+	flex-direction: row;
+	height:200px;
+	width: 1500px;
+	justify-content: space-evenly;
+	margin-left: -2px;
+}
+
+ul.texts{
+	list-style-type: none;
+}
+	
+li.e{
+	font-family : 'Times New Roman', Times, serif Black;
+	font-weight : bold;
+	text-align: left;
+	text-decoration-color:#FFFFFF;
+	font-size: 18px;
+	
+}
+
+
+li.c{
+	font-family : 'Times New Roman', Times, serif Black;
+	text-align: left;
+	text-decoration-color:#FFFFFF;
+	
+	
+}
+
+a.d{
+	font-size : 15px;
+}
+
+
+li.f{
+	font-family : 'Times New Roman', Times, serif Black;
+	font-weight : bold; 
+	text-align : left;
+	font-size: 18px;
+}
+
+li.g{
+	font-family : 'Times New Roman', Times, serif Black;
+	text-align: left;
+	text-decoration-color:#FFFFFF;
+	
+}
+
+a.h{
+	font-size : 15px;
+}
+
+/**horizontal line**/
+hr.line{
+	padding : 2px;
+	width: 1500px;
+	background-color : 1EB4EA;
+}
+
+/** footer content**/
+#box1{
+	height : 50px;
+	width : 250px;
+	
+}
+
+#box2{
+	height : 50px;
+	width : 250px;
+	
+	
+	
+}
+
+#box3{
+	height : 50px;
+	width : 250px;
+	font-weight : bold;
+	
+}
+
+img.cardpay{
+	height : 40px;
+	width : 230px;
+}
+
+#box4{
+	height : 50p;
+	width : 250px;
+	font-weight : bold;
+	
+}
+
+img.social{
+	height :40px;
+	width : 190px;
+}
+
+
+img.app{
+	height :40px;
+	width : 250px;
+}
+
+
